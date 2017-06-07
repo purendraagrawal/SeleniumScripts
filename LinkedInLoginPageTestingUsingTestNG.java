@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class LinkedInLoginPageTestingUsingJunit {
+public class LinkedInLoginPageTestingUsingTestNG {
 	public static WebDriver driver;
 
 	@Test(priority=1)
