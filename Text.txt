@@ -1,0 +1,21 @@
+A web application contains a Link "ABC" .The link is enabled for all the users but the difference is for some users the link text is Strikethrough and for some users the link text is normal. The strikethrough link and normal link redirects to different pages. The xpath of link text is "//div[@id='div_exerciseview']/table[@id='Options (ISO)_table']//tr[3]/td[11]". 
+
+The code for strikethrough link is 
+<table>
+<td>
+<a href ="link">
+<span style="text-decoration: line-through;">
+</span>
+</a>
+</td>
+</table>
+
+The code for normal link is 
+<table>
+<td>
+<a href ="link">
+</a>
+</td>
+</table>
+
+How will you identify the link is normal or strikethrough?
